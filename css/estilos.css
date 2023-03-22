@@ -397,7 +397,12 @@ float: left;
     font-size: 120%;
     text-align: center;
 }
+
 /* Página Contacto */
+
+.bg-secondarya{
+    background-color: #066a88;
+}
 
 /* Formulario */
 
