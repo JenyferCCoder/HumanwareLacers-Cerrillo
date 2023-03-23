@@ -1,0 +1,74 @@
+/*Creación de variables*/
+$color-fondo-blanco:#fff;
+$color-letra-negro:#000;
+$color-celeste:#00B5F3;
+
+/*Selectores de estilo ID*/
+#menu{
+    background-color: $color-fondo-blanco;
+    color: $color-letra-negro;
+}
+
+
+/*Bootstrap*/
+.btn-outline-success {
+    --bs-btn-color: $color-celeste;
+    --bs-btn-border-color: $color-celeste;
+    --bs-btn-hover-bg: $color-celeste;
+    --bs-btn-active-color: $color-fondo-blanco;
+    --bs-btn-active-bg:$color-celeste;
+    --bs-btn-active-border-color:$color-celeste;
+    --bs-btn-disabled-color:$color-celeste;
+    --bs-btn-disabled-border-color:$color-celeste;
+}
+.dropdown-menu{
+    --bs-dropdown-link-hover-bg:#ade9fc;
+    --bs-dropdown-link-active-bg: $color-celeste;
+}
+.navbar-toggler{
+    color: $color-celeste;
+}
+
+/*Bootstrap - menu secundario*/
+.btn-dark{
+    --bs-btn-bg:#000;
+    --bs-btn-hover-bg:#00B5F3;
+    --bs-btn-hover-color:#000;
+    margin: 5px;
+}
+
+/* ------------------------
+Selectores de estilo CLASS
+--------------------------*/
+
+/*Anidadción*/
+.menu_barra{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    li{
+        a{
+            display: inline-block;
+
+            padding: 20px;
+            color: $color-letra-negro;
+            font-size: 18px;
+            background-color: transparent;            
+        }
+    }
+}
+
+.logo{
+    width: 8%;
+    padding-top: 10px;
+
+}
+
+.ajustar_img{
+    width: 100%;
+}
+
+.ajustar_buscar{
+    width: 30%;
+}

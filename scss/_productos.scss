@@ -1,0 +1,113 @@
+/*Creación de variables*/
+$color-fondo-blanco:#fff;
+$color-letra-negro:#000;
+$color-celeste:#00B5F3;
+$color-gris-claro:#e9e9e9;
+
+
+/* ------------------------
+Selectores de estilo CLASS
+--------------------------*/
+.tarjeta{
+    background-color: $color-fondo-blanco;
+    color: $color-letra-negro;
+    width: 30px auto;
+    height: 40px auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+}
+.tarjeta_img{
+    width: 20%;
+    display: block;
+    align-items: center;
+}
+
+
+
+.tarjeta_titulo{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 120%;
+    text-align: center;
+}
+
+.tarjeta_contenido{
+    color: $color-letra-negro;
+    font-size: 100%;
+}
+
+.fondo_tarjeta_ver{
+    background-color: $color-letra-negro;
+    border-color: $color-fondo-blanco;
+    border-width: auto;
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    padding-left: auto;
+    margin-top: 0px;
+    border-radius: 4px;
+}
+
+.tarjeta_ver{
+    color: $color-fondo-blanco;
+    font-size: 100%;
+    padding-top: 20px;
+    padding-left: 30px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.producto_img{
+    width: 100%;
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+}
+
+.producto_ver{
+    color: $color-fondo-blanco;
+    font-size: 100%;
+    padding-top: 20px;
+    padding-left: 22px;
+    font-size: 16px;
+}
+
+.fondo_producto_ver{
+    background-color: $color-celeste;
+    border-color: $color-fondo-blanco;
+    border-width: auto;
+    width: 120px;
+    height: 30px;
+    margin: auto;
+    padding-left: auto;
+    padding: 2px;
+    margin-top: 0px;
+    border-radius: 4px;
+}
+
+.tarjeta_produc{
+    background-color: $color-gris-claro;
+    color: $color-letra-negro;
+    width: 200px;
+    height: 30px auto;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.tarjeta_titulo_produc{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    padding-bottom: 10px;
+    font-size: 120%;
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+/*Creación de variables*/
+$color-fondo-blanco:#fff;
+$color-letra-negro:#000;
+$color-celeste:#00B5F3;
+
+/* ------------------------
+Selectores de estilo CLASS
+--------------------------*/
+
+/* Formulario */
+
+.entrada{
+    padding-bottom: 15px;
+    color: $color-letra-negro;
+}
+
+.campo {
+    background-color: transparent;
+    width: 100%;
+    border: 2px solid $color-letra-negro;
+    border-radius: 10px;
+    height: 30px;
+    font-size: 14px;
+    padding: 0 15px;
+    font: 400;
+    color: $color-letra-negro;
+    justify-items: center;
+}
+
+.campo_mensaje {
+    background-color: transparent;
+    color: $color-letra-negro;
+    width: 100%;
+    border: 2px solid $color-letra-negro;
+    border-radius: 10px;
+    height: 80px;
+    font-size: 16px;
+    padding: 0 15px;
+    font: 400;
+}
+
+.boton-enviar {
+    margin: 5px;
+    padding-top: auto;
+    border-radius: 10px;
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    color: $color-fondo-blanco;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.5s; 
+    justify-items: center;
+    background-color: #0ab3f7;
+    border-color: $color-fondo-blanco;
+
+    
+}
+
+.ajustar_mapa {
+
+    width: 100%;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+
+
+/* Tarjetas de contacto */
+.tarjeta_contacto {
+    background-color: #0ab3f7;
+    color: $color-fondo-blanco;
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: left;
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 16px;
+    font-weight: 700;
+}
+/*Anidadción*/
+.tarjeta_contacto{
+    h3{
+        text-align: center;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    a{
+        color: $color-fondo-blanco;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+        padding-bottom: 10px;
+    }
+}
+
+.ajustar_mapa {
+    width: 100%;
+    padding-bottom: 10px;
+}

@@ -1,0 +1,179 @@
+/* Importación */
+@import"menu";
+@import"productos";
+@import"footer";
+@import"contacto";
+/* Creación de variables */
+$color-fondo-blanco:#fff;
+$color-fondo-gris-claro:#ddecee;
+$color-letra-negro:#000;
+$color-celeste:#00B5F3;
+
+/* Fuentes */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+
+/* Selector Universal */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+
+    /* ------------------------
+    Selectores de estilo HTML
+    --------------------------*/
+a{
+    text-decoration: none;
+    font-weight: 400;
+    color: $color-letra-negro;
+}
+
+button{
+    background: transparent;
+    color: $color-fondo-blanco;
+    border: transparent; 
+}
+
+    /* ------------------------
+    Selectores de estilo ID
+    --------------------------*/
+
+/* formulario */
+
+#formulario_contacto{
+    box-shadow: 0 15px 20px 0 rgb(32 54 70 / 20%) !important;
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+#formulario_contacto p{
+    text-align: center;
+    margin-bottom: 500px;
+}
+#footer-escritorio{
+    display: initial;
+}
+    /* ------------------------
+    Selectores de estilo CLASS
+    --------------------------*/
+
+/* Bootstrap */
+
+    .img_promo{
+        width: 100%;
+        height: auto;
+        padding: 0px;
+    }
+    .img_promo2{
+        width: auto;
+        height: 100%;
+        padding: 0px;
+    }
+
+    .table{
+        display: initial;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #promociones .row{
+        --bs-gutter-x: 0rem;
+    }
+    #accordionFlushExample{
+        display: none;
+    }
+
+.contenedor{
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    top: 0;
+    border: none;
+}
+
+.index-banner{
+    margin-top: 0;
+    padding-top: 0;
+    max-width: 1920px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    padding: 0;
+    margin-bottom: 70px;
+
+}
+
+.swip-container{
+    margin-left: auto;
+    margin-right: auto;
+
+    overflow: hidden;
+}
+
+.banner1{
+width: 100%;
+height: auto;
+float: left;
+}
+
+.subt{
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
+.columna {
+    flex-basis: 0; 
+    flex-grow: 1; 
+
+    margin-left: 5px;
+    margin-right: 5px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.img-promo{
+    width: 100%;
+}
+.columna-promo{
+    display: flex;
+    padding: 10px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.fila-promo{
+    flex: 25%;
+    padding: 7px;
+}
+.fila-promo img{
+    margin-top: 10px;
+}
+
+
+
+
+@media (max-width:991px) {
+    #accordionFlushExample{
+        display: initial;
+    }
+    #footer-escritorio{
+        display: none;
+    }
+}
+
