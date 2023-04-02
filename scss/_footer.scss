@@ -8,7 +8,10 @@ $color-celeste-oscuro:#066a88;
 #footer{
     background-color: $color-fondo-blanco;
     color: $color-letra-negro;
+    padding-bottom: 0px;
+
 }
+
 
 .bg-secondarya{
     /*background-color: $color-celeste-oscuro;*/
@@ -49,7 +52,7 @@ $color-celeste-oscuro:#066a88;
 .rrss-img{
     width: 8%;
     padding-top: 10px;
-    display: flex;
+    display: inline-flex;
     
 
 }
